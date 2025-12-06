@@ -146,8 +146,8 @@ export const LogoLoop = memo(({
   speed = 120,
   direction = 'left',
   width = '100%',
-  logoHeight = 28,
-  gap = 32,
+  logoHeight = 48, // Increased from 28 to 48
+  gap = 40, // Increased gap proportionally
   pauseOnHover,
   hoverSpeed,
   fadeOut = false,
@@ -241,11 +241,11 @@ export const LogoLoop = memo(({
     cx(
       'relative group',
       isVertical ? 'overflow-hidden h-full inline-block' : 'overflow-x-hidden',
-      '[--logoloop-gap:32px]',
-      '[--logoloop-logoHeight:28px]',
+      '[--logoloop-gap:40px]', // Updated default gap
+      '[--logoloop-logoHeight:48px]', // Updated default height
       '[--logoloop-fadeColorAuto:#ffffff]',
       'dark:[--logoloop-fadeColorAuto:#0b0b0b]',
-      scaleOnHover && 'py-[calc(var(--logoloop-logoHeight)*0.1)]',
+      scaleOnHover && 'py-[calc(var(--logoloop-logoHeight)*0.15)]', // Increased padding factor
       className
     ), [isVertical, scaleOnHover, className]);
 

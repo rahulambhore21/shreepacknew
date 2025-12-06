@@ -6,13 +6,26 @@ import ContactForm from './ContactForm';
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center">
-      {/* Background Image */}
+      {/* Background Video */}
       <div className="absolute inset-0 z-0">
+        <video
+          src="/video01.mp4" // Replace with your video file path
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-full h-full object-cover"
+        />
+      </div>
+
+      {/* Logo */}
+      <div className="absolute top-8 left-8 z-20">
         <Image
-          src="/img/hero01.png" // Replace with your background image path
-          alt="Cargo Services Background"
-          fill
-          className="object-cover"
+          src="/img/logo.png" // Replace with your logo file path
+          alt="Company Logo"
+          width={150}
+          height={60}
+          className="h-auto"
           priority
         />
       </div>
@@ -53,9 +66,7 @@ export default function Hero() {
               </div>
             </div>
 
-            <button className="mt-8 bg-[#0084D1] hover:bg-[#0070B8] text-white font-semibold py-3 px-8 rounded-lg transition duration-300">
-              Learn More
-            </button>
+           
           </div>
 
           {/* Right Side - Contact Form */}

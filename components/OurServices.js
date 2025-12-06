@@ -161,7 +161,7 @@ function OurServices() {
         </div>
 
         {/* Enhanced Services Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8 max-w-7xl mx-auto">
           {services.map((service, index) => (
             <div
               key={service.id}
@@ -173,23 +173,23 @@ function OurServices() {
               }}
             >
               {/* Enhanced Card with Multiple Shadow Layers */}
-              <div className="relative bg-white/15 backdrop-blur-2xl rounded-3xl p-8 h-80 border border-white/30 transition-all duration-500 hover:bg-white/20 hover:border-white/50 shadow-[0_8px_32px_rgba(0,0,0,0.3),0_20px_60px_rgba(0,0,0,0.2),0_0_0_1px_rgba(255,255,255,0.1)] hover:shadow-[0_15px_50px_rgba(0,0,0,0.4),0_30px_80px_rgba(0,132,209,0.2),0_40px_100px_rgba(0,147,69,0.2),0_0_0_1px_rgba(255,255,255,0.2)]">
+              <div className="relative bg-white/15 backdrop-blur-2xl rounded-2xl md:rounded-3xl p-4 md:p-8 h-64 md:h-80 border border-white/30 transition-all duration-500 hover:bg-white/20 hover:border-white/50 shadow-[0_8px_32px_rgba(0,0,0,0.3),0_20px_60px_rgba(0,0,0,0.2),0_0_0_1px_rgba(255,255,255,0.1)] hover:shadow-[0_15px_50px_rgba(0,0,0,0.4),0_30px_80px_rgba(0,132,209,0.2),0_40px_100px_rgba(0,147,69,0.2),0_0_0_1px_rgba(255,255,255,0.2)]">
                 
                 {/* Shimmer Overlay Effect */}
                 <div className="absolute inset-0 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 bg-gradient-to-br from-white/20 via-transparent to-transparent animate-shimmer pointer-events-none"></div>
                 
                 {/* Enhanced Service Icon with Floating Effect */}
-                <div className="text-7xl mb-6 text-center transform group-hover:scale-125 group-hover:-translate-y-2 transition-all duration-500 drop-shadow-[0_4px_20px_rgba(0,0,0,0.3)] group-hover:drop-shadow-[0_8px_30px_rgba(0,0,0,0.4)]">
+                <div className="text-4xl md:text-7xl mb-3 md:mb-6 text-center transform group-hover:scale-125 group-hover:-translate-y-2 transition-all duration-500 drop-shadow-[0_4px_20px_rgba(0,0,0,0.3)] group-hover:drop-shadow-[0_8px_30px_rgba(0,0,0,0.4)]">
                   {service.icon}
                 </div>
                 
                 {/* Enhanced Service Title */}
-                <h3 className="text-2xl font-bold text-white mb-4 text-center group-hover:text-[#0084D1] transition-all duration-300 drop-shadow-lg group-hover:drop-shadow-2xl transform group-hover:-translate-y-1">
+                <h3 className="text-lg md:text-2xl font-bold text-white mb-2 md:mb-4 text-center group-hover:text-[#0084D1] transition-all duration-300 drop-shadow-lg group-hover:drop-shadow-2xl transform group-hover:-translate-y-1">
                   {service.title}
                 </h3>
                 
                 {/* Enhanced Service Description */}
-                <p className="text-gray-200 text-center leading-relaxed group-hover:text-white transition-all duration-300 drop-shadow-md text-sm group-hover:transform group-hover:-translate-y-1">
+                <p className="text-gray-200 text-center leading-relaxed group-hover:text-white transition-all duration-300 drop-shadow-md text-xs md:text-sm group-hover:transform group-hover:-translate-y-1">
                   {service.description}
                 </p>
 
