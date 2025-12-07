@@ -130,7 +130,19 @@ const Footer = () => {
           <div className="container mx-auto px-4 py-6">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <div className="text-gray-400 text-sm">
-                © {currentYear} Shree Pack Ways. All rights reserved.
+                © {currentYear} SHREE PACKWAYS CARGO MOVERS PRIVATE LIMITED. All rights reserved.
+              </div>
+              
+              <div className="text-gray-400 text-sm">
+                Developed and marketed by{' '}
+                <a 
+                  href="https://admarktech.in" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-[#0084D1] hover:text-[#009345] transition-colors duration-300 font-medium"
+                >
+                  admarktech
+                </a>
               </div>
               
               <div className="flex items-center space-x-2">

@@ -26,7 +26,7 @@ export async function POST(request) {
 
     await transporter.sendMail({
       from: `"Website Lead" <ambhore199@gmail.com>`,
-      to: "info@shreepackways.com",
+      to: "info@shreepackways.com, info@admarktech.in",
       subject: "New Lead from Website - Shree Pack Ways",
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
