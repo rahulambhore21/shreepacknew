@@ -101,13 +101,12 @@ function ContactForm() {
 
     if (validateForm()) {
       try {
-        const response = await fetch('/api/send-email', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(formData),
-        });
+        const response = await fetch('https://shreepackways-smtp.vercel.app/api/send-email', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify(formData),
+});
+
 
         const data = await response.json();
 
@@ -120,7 +119,7 @@ function ContactForm() {
         }
       } catch (error) {
         console.error('Submission error:', error);
-        alert('Failed to send quote request. Please check your internet connection and try again.');
+        alert('Failed to send quote request. Please check your nternet connection and try again.');
       }
     }
 
