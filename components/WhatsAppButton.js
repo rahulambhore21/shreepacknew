@@ -6,8 +6,8 @@ const WhatsAppButton = () => {
   const [isOpen, setIsOpen] = useState(false)
   
   // Replace with your actual WhatsApp number (include country code without + sign)
-  const whatsappNumber = "9953228020" // Example: "911234567890" for India
-  const defaultMessage = "Hi! I'm interested in your cargo services. Can you help me with a quote?"
+  const whatsappNumber = "9810719930" // Primary WhatsApp number
+  const defaultMessage = "Hi! I'm interested in your packing and moving services. Can you help me with a quote?"
 
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent(defaultMessage)
@@ -32,7 +32,7 @@ const WhatsAppButton = () => {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-800">Shree Pack Cargo</h3>
+                      <h3 className="font-semibold text-gray-800">Reliable Packers & Movers</h3>
                       <p className="text-xs text-gray-500">Typically replies instantly</p>
                     </div>
                   </div>

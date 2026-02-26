@@ -6,7 +6,7 @@ const TermsAndConditions = () => {
       <div className="container mx-auto px-4 max-w-4xl">
         {/* Header */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-[#0084D1] to-[#009345] bg-clip-text text-transparent mb-4">
+          <h1 className="text-4xl font-bold bg-gradient-to-r from-[#BB3212] to-black bg-clip-text text-transparent mb-4">
             Terms & Conditions
           </h1>
           <p className="text-gray-600">Packers & Movers / Cargo Services</p>
@@ -88,15 +88,15 @@ const TermsAndConditions = () => {
               </ul>
             </section>
 
-            <div className="bg-blue-50 border-l-4 border-[#0084D1] p-6 mt-8">
+            <div className="bg-red-50 border-l-4 border-[#BB3212] p-6 mt-8">
               <div className="flex">
                 <div className="flex-shrink-0">
-                  <svg className="h-5 w-5 text-[#0084D1]" viewBox="0 0 20 20" fill="currentColor">
+                  <svg className="h-5 w-5 text-[#BB3212]" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
                   </svg>
                 </div>
                 <div className="ml-3">
-                  <h3 className="text-sm font-medium text-[#0084D1]">Important Notice</h3>
+                  <h3 className="text-sm font-medium text-[#BB3212]">Important Notice</h3>
                   <div className="mt-2 text-sm text-gray-700">
                     <p>By booking our services, you acknowledge that you have read, understood, and agree to these Terms & Conditions. If you have any questions or concerns, please contact us before proceeding with your booking.</p>
                   </div>
@@ -108,7 +108,7 @@ const TermsAndConditions = () => {
 
         {/* Back to Home */}
         <div className="text-center mt-8">
-          <Link href="/" className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#0084D1] to-[#009345] text-white font-medium rounded-lg hover:shadow-lg transition-all duration-300">
+          <Link href="/" className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#BB3212] to-black text-white font-medium rounded-lg hover:shadow-lg transition-all duration-300">
             <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
             </svg>

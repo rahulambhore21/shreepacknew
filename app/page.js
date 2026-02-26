@@ -1,6 +1,5 @@
 import Hero from "@/components/hero";
 import OurServices from "@/components/OurServices";
-import LogoLoop from "@/components/LogoLoop";
 import Testimonials from "@/components/testnomials";
 import Footer from "@/components/footer";
 import Image from "next/image";
@@ -18,27 +17,6 @@ export default function Home() {
   return (
     <>
       <Hero/>
-      
-      {/* Partners/Clients Logo Loop */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
-            Trusted by Leading Companies
-          </h2>
-          <LogoLoop
-            logos={logos}
-            speed={80}
-            direction="left"
-            logoHeight={50}
-            gap={48}
-            pauseOnHover={true}
-            fadeOut={true}
-            scaleOnHover={true}
-            ariaLabel="Our trusted partners and clients"
-            className="max-w-6xl mx-auto"
-          />
-        </div>
-      </section>
       
       <OurServices/>
       <Testimonials/>

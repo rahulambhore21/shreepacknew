@@ -14,30 +14,30 @@ function OurServices() {
   const services = [
     {
       id: 1,
-      title: "Car Transportation",
-      description: "Safe and secure vehicle transportation across the country with real-time tracking.",
-      icon: "🚗",
+      title: "Home Shifting",
+      description: "Safe and smooth relocation of household goods with professional packing. We handle your belongings with care.",
+      icon: "🏠",
       image: "/img/service1.jpg"
     },
     {
       id: 2,
-      title: "Logistics Solutions",
-      description: "Comprehensive logistics management for all your cargo transportation needs.",
-      icon: "📦",
+      title: "Office Relocation",
+      description: "Fast and organized office shifting with minimal downtime. Let us handle the logistics while you focus on business.",
+      icon: "🏢",
       image: "/img/service2.jpg"
     },
     {
       id: 3,
-      title: "Express Delivery",
-      description: "Fast and reliable express delivery services with guaranteed time frames.",
-      icon: "⚡",
+      title: "Packing & Unpacking",
+      description: "High-quality packing materials and careful handling to ensure zero damage during transit.",
+      icon: "📦",
       image: "/img/service3.jpg"
     },
     {
       id: 4,
-      title: "Warehouse Storage",
-      description: "Secure warehouse facilities with modern inventory management systems.",
-      icon: "🏢",
+      title: "Storage Solutions",
+      description: "Secure warehouse facilities with modern inventory management systems for short and long-term storage.",
+      icon: "🏪",
       image: "/img/service4.jpg"
     }
   ]
@@ -153,10 +153,10 @@ function OurServices() {
         {/* Title Section */}
         <div ref={titleRef} className="text-center mb-16">
           <h2 className="text-5xl lg:text-6xl font-bold text-white mb-6 drop-shadow-2xl">
-            Our <span className="text-[#0084D1]">Services</span>
+            Our <span className="text-[#BB3212]">Services</span>
           </h2>
           <p className="text-xl text-gray-200 max-w-2xl mx-auto drop-shadow-lg">
-            Comprehensive transportation solutions designed to meet all your logistics needs
+            Complete relocation solutions designed to meet all your moving and packing needs
           </p>
         </div>
 
@@ -173,7 +173,7 @@ function OurServices() {
               }}
             >
               {/* Enhanced Card with Multiple Shadow Layers */}
-              <div className="relative bg-white/15 backdrop-blur-2xl rounded-2xl md:rounded-3xl p-4 md:p-8 h-64 md:h-80 border border-white/30 transition-all duration-500 hover:bg-white/20 hover:border-white/50 shadow-[0_8px_32px_rgba(0,0,0,0.3),0_20px_60px_rgba(0,0,0,0.2),0_0_0_1px_rgba(255,255,255,0.1)] hover:shadow-[0_15px_50px_rgba(0,0,0,0.4),0_30px_80px_rgba(0,132,209,0.2),0_40px_100px_rgba(0,147,69,0.2),0_0_0_1px_rgba(255,255,255,0.2)]">
+              <div className="relative bg-white/15 backdrop-blur-2xl rounded-2xl md:rounded-3xl p-4 md:p-8 h-64 md:h-80 border border-white/30 transition-all duration-500 hover:bg-white/20 hover:border-white/50 shadow-[0_8px_32px_rgba(0,0,0,0.3),0_20px_60px_rgba(0,0,0,0.2),0_0_0_1px_rgba(255,255,255,0.1)] hover:shadow-[0_15px_50px_rgba(0,0,0,0.4),0_30px_80px_rgba(187,50,18,0.2),0_40px_100px_rgba(0,0,0,0.2),0_0_0_1px_rgba(255,255,255,0.2)]">
                 
                 {/* Shimmer Overlay Effect */}
                 <div className="absolute inset-0 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 bg-gradient-to-br from-white/20 via-transparent to-transparent animate-shimmer pointer-events-none"></div>
@@ -184,7 +184,7 @@ function OurServices() {
                 </div>
                 
                 {/* Enhanced Service Title */}
-                <h3 className="text-lg md:text-2xl font-bold text-white mb-2 md:mb-4 text-center group-hover:text-[#0084D1] transition-all duration-300 drop-shadow-lg group-hover:drop-shadow-2xl transform group-hover:-translate-y-1">
+                <h3 className="text-lg md:text-2xl font-bold text-white mb-2 md:mb-4 text-center group-hover:text-[#BB3212] transition-all duration-300 drop-shadow-lg group-hover:drop-shadow-2xl transform group-hover:-translate-y-1">
                   {service.title}
                 </h3>
                 
@@ -194,11 +194,11 @@ function OurServices() {
                 </p>
 
                 {/* Enhanced Multi-layer Gradient Border Effect */}
-                <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#0084D1]/30 via-transparent to-[#009345]/30 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
-                <div className="absolute inset-[-1px] rounded-3xl bg-gradient-to-br from-[#0084D1]/50 via-transparent to-[#009345]/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none blur-sm"></div>
+                <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#BB3212]/30 via-transparent to-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
+                <div className="absolute inset-[-1px] rounded-3xl bg-gradient-to-br from-[#BB3212]/50 via-transparent to-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none blur-sm"></div>
                 
                 {/* Enhanced Bottom Accent with Glow */}
-                <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-1 bg-gradient-to-r from-[#0084D1] to-[#009345] group-hover:w-full transition-all duration-700 rounded-full shadow-lg group-hover:shadow-[0_0_20px_rgba(0,132,209,0.6)]"></div>
+                <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-1 bg-gradient-to-r from-[#BB3212] to-black group-hover:w-full transition-all duration-700 rounded-full shadow-lg group-hover:shadow-[0_0_20px_rgba(187,50,18,0.6)]"></div>
                 
                 {/* Corner Highlight Effect */}
                 <div className="absolute top-4 right-4 w-3 h-3 bg-gradient-to-br from-white/40 to-white/10 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 shadow-lg"></div>
@@ -216,8 +216,8 @@ function OurServices() {
 
       {/* Floating Particles Effect */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-[#0084D1] rounded-full opacity-60 animate-ping"></div>
-        <div className="absolute top-3/4 right-1/4 w-2 h-2 bg-[#009345] rounded-full opacity-60 animate-ping" style={{animationDelay: '1s'}}></div>
+        <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-[#BB3212] rounded-full opacity-60 animate-ping"></div>
+        <div className="absolute top-3/4 right-1/4 w-2 h-2 bg-black rounded-full opacity-60 animate-ping" style={{animationDelay: '1s'}}></div>
         <div className="absolute top-1/2 left-1/6 w-1 h-1 bg-white rounded-full opacity-80 animate-pulse"></div>
         <div className="absolute top-1/3 right-1/3 w-1 h-1 bg-white rounded-full opacity-80 animate-pulse" style={{animationDelay: '2s'}}></div>
       </div>

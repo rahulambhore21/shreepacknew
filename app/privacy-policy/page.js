@@ -123,10 +123,10 @@ const PrivacyPolicy = () => {
               <p className="text-gray-600 mb-3">If you have any questions, contact us at:</p>
               <div className="bg-gray-50 p-4 rounded-lg">
                 <p className="text-gray-600 mb-2">
-                  <strong>Email:</strong> <a href="mailto:info@shreepackways.com" className="text-[#0084D1] hover:underline">info@shreepackways.com</a>
+                  <strong>Email:</strong> <a href="mailto:info@shreepackways.com" className="text-[#BB3212] hover:underline">info@shreepackways.com</a>
                 </p>
                 <p className="text-gray-600">
-                  <strong>Phone:</strong> <a href="tel:+919953228020" className="text-[#0084D1] hover:underline">+91 995-322-8020</a>
+                  <strong>Phone:</strong> <a href="tel:+919810719930" className="text-[#0084D1] hover:underline">+91-9810719930</a> / <a href="tel:+919810831930" className="text-[#0084D1] hover:underline">+91-9810831930</a>
                 </p>
               </div>
             </section>

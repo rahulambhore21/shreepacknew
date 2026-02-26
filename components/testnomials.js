@@ -188,14 +188,14 @@ const TestimonialLoop = memo(({
         
         {/* Customer Info */}
         <div className="flex items-center">
-          <div className="w-12 h-12 bg-gradient-to-br from-[#0084D1] to-[#009345] rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">
+          <div className="w-12 h-12 bg-gradient-to-br from-[#BB3212] to-black rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">
             {testimonial.name.charAt(0)}
           </div>
           <div>
             <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
             <p className="text-gray-500 text-sm">{testimonial.location}</p>
             {testimonial.service && (
-              <p className="text-[#0084D1] text-xs font-medium">{testimonial.service}</p>
+              <p className="text-[#BB3212] text-xs font-medium">{testimonial.service}</p>
             )}
           </div>
         </div>
@@ -221,7 +221,7 @@ const TestimonialLoop = memo(({
       <div className="container mx-auto px-4 mb-12">
         <div className="text-center">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-            What Our <span className="text-[#0084D1]">Customers</span> Say
+            What Our <span className="text-[#BB3212]">Customers</span> Say
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Real experiences from satisfied customers who trust our services
@@ -261,23 +261,23 @@ const Testimonials = () => {
       id: 1,
       name: "Rajesh Kumar",
       location: "Mumbai to Delhi",
-      service: "Car Transportation",
+      service: "Home Shifting",
       rating: 5,
-      text: "Excellent service! My car was delivered safely and on time. The team was professional and kept me updated throughout the journey. Highly recommended!"
+      text: "Excellent service! My household items were packed safely and delivered on time. The team was professional and kept me updated throughout the journey. Highly recommended!"
     },
     {
       id: 2,
       name: "Priya Sharma",
       location: "Bangalore to Chennai",
-      service: "Express Delivery",
+      service: "Office Relocation",
       rating: 5,
-      text: "Outstanding experience with Shree Pack. They handled my vehicle with utmost care and the tracking system was very helpful. Will definitely use again."
+      text: "Outstanding experience with this service provider. They handled our office relocation with utmost care and the tracking system was very helpful. Will definitely use again."
     },
     {
       id: 3,
       name: "Amit Patel",
       location: "Pune to Hyderabad",
-      service: "Logistics Solutions",
+      service: "Packing & Unpacking",
       rating: 4,
       text: "Great service quality and very reasonable pricing. The staff is courteous and the delivery was prompt. Satisfied with their professional approach."
     },
@@ -285,23 +285,23 @@ const Testimonials = () => {
       id: 4,
       name: "Sneha Reddy",
       location: "Ahmedabad to Kolkata",
-      service: "Car Transportation",
+      service: "Home Shifting",
       rating: 5,
-      text: "Fantastic service! They took great care of my new car during transportation. No scratches, delivered on schedule. Truly professional team."
+      text: "Fantastic service! They took great care of my furniture and belongings during shifting. No damage, delivered on schedule. Truly professional team."
     },
     {
       id: 5,
       name: "Vikram Singh",
       location: "Jaipur to Goa",
-      service: "Express Delivery",
+      service: "Office Relocation",
       rating: 5,
-      text: "Impressed with their service quality. Real-time tracking and regular updates made the whole process stress-free. Highly recommended service provider."
+      text: "Impressed with their service quality. Real-time updates and professional handling made our office move stress-free. Highly recommended service provider."
     },
     {
       id: 6,
       name: "Kavya Nair",
       location: "Kochi to Coimbatore",
-      service: "Warehouse Storage",
+      service: "Storage Solutions",
       rating: 4,
       text: "Professional team with excellent customer service. The warehouse facilities are top-notch and the inventory management is very systematic."
     }

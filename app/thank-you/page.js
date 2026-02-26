@@ -63,12 +63,12 @@ function ThankYouContent() {
         </div>
 
         {/* Contact Information */}
-        <div className="bg-gradient-to-r from-[#0084D1]/10 to-[#009345]/10 rounded-2xl p-6 lg:p-8 mb-8 border border-white/30">
+        <div className="bg-gradient-to-r from-[#BB3212]/10 to-black/10 rounded-2xl p-6 lg:p-8 mb-8 border border-white/30">
           <h2 className="text-xl font-semibold text-gray-800 mb-4">Need immediate assistance?</h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a 
-              href="tel:+919953228020"
-              className="flex items-center space-x-2 bg-white hover:bg-gray-50 text-[#0084D1] font-medium px-6 py-3 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg"
+              href="tel:+919810719930"
+              className="flex items-center space-x-2 bg-white hover:bg-gray-50 text-[#BB3212] font-medium px-6 py-3 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -76,7 +76,7 @@ function ThankYouContent() {
               <span>Call Now</span>
             </a>
             <a 
-              href="https://wa.me/919953228020?text=Hi! I just submitted a quote request and need assistance."
+              href="https://wa.me/919810719930?text=Hi! I just submitted a quote request and need assistance."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 bg-[#25D366] hover:bg-[#20BA5A] text-white font-medium px-6 py-3 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg"

@@ -101,7 +101,7 @@ function ContactForm() {
 
     if (validateForm()) {
       try {
-        const response = await fetch('https://shreepackways-smtp.vercel.app/api/send-email', {
+        const response = await fetch('https://shreepackways-smtp.vercel.app/api/moving-quote', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify(formData),
@@ -131,7 +131,8 @@ function ContactForm() {
       <div className="relative bg-gradient-to-br from-white/20 via-white/10 to-white/5 backdrop-blur-xl rounded-2xl lg:rounded-3xl p-4 lg:p-8 shadow-2xl border border-white/30 before:absolute before:inset-0 before:bg-gradient-to-br before:from-white/20 before:to-transparent before:rounded-2xl lg:before:rounded-3xl before:pointer-events-none">
         <div className="relative z-10">
           <h3 className="text-xl lg:text-2xl font-bold text-black mb-4 lg:mb-6 text-center drop-shadow-lg">
-            Get Quote
+            Get Free Moving Quote<br />
+            <span className="text-base lg:text-lg font-medium">in 5 Minutes</span>
           </h3>
           
           <form onSubmit={handleSubmit} className="space-y-3 lg:space-y-5">
@@ -183,12 +184,12 @@ function ContactForm() {
                 {/* From City */}
                 <div className="flex-1">
                   <label className="block text-black/80 text-xs lg:text-sm font-medium mb-1 lg:mb-2 pl-1 lg:pl-2">
-                     From
+                     Moving From
                   </label>
                   <input
                     type="text"
                     name="fromCity"
-                    placeholder="From City"
+                    placeholder="Moving From"
                     value={formData.fromCity}
                     onChange={handleInputChange}
                     className={`w-full px-2 lg:px-4 py-2 lg:py-3 rounded-lg lg:rounded-xl bg-white/15 backdrop-blur-sm border ${
@@ -222,12 +223,12 @@ function ContactForm() {
                 {/* To City */}
                 <div className="flex-1">
                   <label className="block text-black/80 text-xs lg:text-sm font-medium mb-1 lg:mb-2 pl-1 lg:pl-2">
-                     To
+                     Moving To
                   </label>
                   <input
                     type="text"
                     name="toCity"
-                    placeholder="To City"
+                    placeholder="Moving To"
                     value={formData.toCity}
                     onChange={handleInputChange}
                     className={`w-full px-2 lg:px-4 py-2 lg:py-3 rounded-lg lg:rounded-xl bg-white/15 backdrop-blur-sm border ${
@@ -243,12 +244,12 @@ function ContactForm() {
                 <div className="mt-2 space-y-1">
                   {errors.fromCity && (
                     <p className="text-red-300 text-xs lg:text-sm pl-2 drop-shadow-sm">
-                      From: {errors.fromCity}
+                      Moving From: {errors.fromCity}
                     </p>
                   )}
                   {errors.toCity && (
                     <p className="text-red-300 text-xs lg:text-sm pl-2 drop-shadow-sm">
-                      To: {errors.toCity}
+                      Moving To: {errors.toCity}
                     </p>
                   )}
                 </div>
@@ -273,7 +274,7 @@ function ContactForm() {
                 isSubmitting || Object.keys(errors).length > 0
                   ? 'bg-gradient-to-r from-gray-500/60 to-gray-600/60 cursor-not-allowed'
                   : ''
-              } text-black bg-green-300 font-semibold py-2 lg:py-3 px-4 lg:px-6 rounded-lg lg:rounded-xl shadow-lg transition-all duration-300 backdrop-blur-sm border border-white/30 text-sm lg:text-base overflow-hidden`}
+              } text-white bg-[#BB3212] font-semibold py-2 lg:py-3 px-4 lg:px-6 rounded-lg lg:rounded-xl shadow-lg transition-all duration-300 backdrop-blur-sm border border-white/30 text-sm lg:text-base overflow-hidden`}
             >
               {/* Button Shimmer Effect */}
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12 -translate-x-full transition-transform duration-1000 group-hover:translate-x-full"></div>
