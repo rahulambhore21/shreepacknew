@@ -32,7 +32,7 @@ const WhatsAppButton = () => {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-800">Reliable Packers & Movers</h3>
+                      <h3 className="font-semibold text-gray-800">Reliable cargo movers and Packers</h3>
                       <p className="text-xs text-gray-500">Typically replies instantly</p>
                     </div>
                   </div>

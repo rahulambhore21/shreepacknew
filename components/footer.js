@@ -22,7 +22,7 @@ const Footer = () => {
             <div className="lg:col-span-1">
               <div className="mb-6">
                 <h3 className="text-3xl font-bold bg-gradient-to-r from-[#BB3212] to-black bg-clip-text text-transparent">
-                  Reliable Packers & Movers
+                  Reliable cargo movers and Packers
                 </h3>
                 <p className="text-gray-300 mt-4 leading-relaxed">
                   Safe household shifting, office relocation & vehicle transport with 100% damage protection and on-time delivery guarantee.
@@ -144,7 +144,7 @@ const Footer = () => {
           <div className="container mx-auto px-4 py-6">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <div className="text-gray-400 text-sm">
-                © {currentYear} Reliable Packers & Movers. All rights reserved.
+                © {currentYear} Reliable cargo movers and Packers. All rights reserved.
               </div>
               
               <div className="text-gray-400 text-sm">
